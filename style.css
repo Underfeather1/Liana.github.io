@@ -151,9 +151,14 @@ a {
     color: #d8b4fe; /* violet-300 */
 }
 
+#burger {
+    display: none;
+
+}
 
 /* Responsive Design */
 @media (max-width: 991px) {
+
     .main-header {
         padding: 0 2.5rem;
         height: 180px;
@@ -407,6 +412,8 @@ body {
 }
 
 @media (max-width: 768px) {
+
+
     .header {
         padding: 0 32px;
         height: 180px;
@@ -571,4 +578,9 @@ body {
     .contact-info {
         font-size: 1rem;
     }
+
+    #burger {
+        display: block;
+    }
 }
+
